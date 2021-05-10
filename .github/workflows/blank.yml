@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Demo Example
 
 # Controls when the action will run. 
 on:
@@ -34,3 +34,17 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      - name: Execute Job
+        # You may pin to the exact commit or the version.
+        # uses: parasoft/execute-job-action@c02b0c00163aef3e2099076026ca79cf5bdc26a6
+        uses: parasoft/execute-job-action@1.0.3
+        with:
+          # CTP URL
+          ctpUrl: 'http://34.220.209.203:8080'
+          # CTP Username
+          ctpUsername: demo
+          # CTP Password
+          ctpPassword: demo-user
+          # CTP Test Execution Job Name
+          ctpJob: 'P1 Smoke Tests'
