@@ -48,3 +48,15 @@ jobs:
           ctpPassword: demo-user
           # CTP Test Execution Job Name
           ctpJob: 'P1 Smoke Tests'
+          # Publish test execution results to DTP
+          publishReport: true
+          # DTP URL
+          dtpUrl: 'http://34.209.44.9:8080'
+          # DTP Username
+          dtpUsername: demo
+          # DTP Password
+          dtpPassword: demo-user
+          # DTP Project Name
+          dtpProject: 'Parabank_Master'
+          # Build ID to send to DTP
+          buildId: testing-123
