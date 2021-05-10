@@ -21,7 +21,7 @@ steps:
 - task: ExecuteTask@2
   inputs:
     ParasoftEMEndpoint: 'CTP - AWS Demo Image'
-    Job: 'Complete Functional Regression'
+    Job: 'P1 Smoke Tests'
     PublishDTPReport: true
     ParasoftDTPEndpoint: 'DTP - AWS Demo Image'
     DTPProject: 'Parabank_Master'
