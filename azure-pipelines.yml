@@ -26,6 +26,7 @@ steps:
     ParasoftDTPEndpoint: 'DTP - AWS Demo Image'
     DTPProject: 'Parabank_Master'
     ReportBuildId: '$(Build.BuildId)'
+  continueOnError: true
 
 - task: PublishParasoftTestResults@1
   inputs:
