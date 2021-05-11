@@ -41,7 +41,7 @@ jobs:
         uses: parasoft/execute-job-action@1.0.3
         with:
           # CTP URL
-          ctpUrl: 'http://52.36.238.103:8080'
+          ctpUrl: 'http://54.214.229.152:8080'
           # CTP Username
           ctpUsername: demo
           # CTP Password
@@ -51,7 +51,7 @@ jobs:
           # Publish test execution results to DTP
           publishReport: true
           # DTP URL
-          dtpUrl: 'http://34.209.44.9:8080'
+          dtpUrl: 'http://34.222.164.178:8080'
           # DTP Username
           dtpUsername: demo
           # DTP Password
