@@ -30,5 +30,5 @@ steps:
 
 - task: PublishParasoftTestResults@1
   inputs:
-    testRunner: 'XTest10x'
+    testRunner: 'SOAtest9x'
     testResultsFiles: '**/report.xml'
