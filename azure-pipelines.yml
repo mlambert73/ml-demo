@@ -26,3 +26,8 @@ steps:
     ParasoftDTPEndpoint: 'DTP - AWS Demo Image'
     DTPProject: 'Parabank_Master'
     ReportBuildId: '$(Build.BuildId)'
+
+- task: PublishParasoftTestResults@1
+  inputs:
+    testRunner: 'XTest10x'
+    testResultsFiles: '**/rep*.xml'
