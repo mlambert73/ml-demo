@@ -59,4 +59,4 @@ jobs:
           # DTP Project Name
           dtpProject: 'Parabank_Master'
           # Build ID to send to DTP
-          buildId: 'GitHub-$GITHUB_RUN_ID'
+          buildId: 'GitHub-${{github.run_id}}'
