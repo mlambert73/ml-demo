@@ -21,11 +21,11 @@ steps:
 - task: ExecuteTask@2
   inputs:
     ParasoftEMEndpoint: 'CTP - AWS Demo Image'
-    Job: 'P1 Smoke Tests'
+    Job: 'E2EPaymentsTest'
     PublishDTPReport: true
     ParasoftDTPEndpoint: 'DTP - AWS Demo Image'
     DTPProject: 'Parabank_Master'
-    ReportBuildId: 'ParabankMaster-$(Build.BuildId)'
+    ReportBuildId: 'ParabankMaster-ADO-$(Build.BuildId)'
   continueOnError: true
 
 - task: PublishParasoftTestResults@1
