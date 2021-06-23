@@ -5,10 +5,11 @@ name: Demo Example
 # Controls when the action will run. 
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  # COMMENTING OUT DUE TO ADO DEMO FLOW
+  #push:
+  #  branches: [ main ]
+  #pull_request:
+  #  branches: [ main ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -41,7 +42,7 @@ jobs:
         uses: parasoft/execute-job-action@1.0.3
         with:
           # CTP URL
-          ctpUrl: 'http://54.214.229.152:8080/em'
+          ctpUrl: 'http://34.220.209.203:8080/em'
           # CTP Username
           ctpUsername: demo
           # CTP Password
