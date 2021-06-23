@@ -47,11 +47,11 @@ jobs:
           # CTP Password
           ctpPassword: demo-user
           # CTP Test Execution Job Name
-          ctpJob: 'P1 Smoke Tests'
+          ctpJob: 'E2EPaymentsTest'
           # Publish test execution results to DTP
           publishReport: true
           # DTP URL
-          dtpUrl: 'http://34.222.164.178:8080/grs'
+          dtpUrl: 'http://34.208.76.206:8080/grs'
           # DTP Username
           dtpUsername: demo
           # DTP Password
